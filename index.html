@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+		<meta name="format-detection" content="telephone=no">
+		<script type="text/javascript">
+			(function(doc, win) {
+			    var docEl = doc.documentElement,
+			        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+			        recalc = function() {
+			            var clientWidth = docEl.clientWidth;
+			            if (!clientWidth) return;
+			            if (clientWidth >= 750) {
+			                docEl.style.fontSize = '100px';
+			            } else {
+			                docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+			            }
+			        };
+			
+			    if (!doc.addEventListener) return;
+			    win.addEventListener(resizeEvt, recalc, false);
+			    doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.css" />
+	</head>
+	<body>
+		<div class="header clearfix">
+			<div class="logo"><a href="#"></a></div>
+			<div class="menuWarp clearfix">
+				<div class="search"><a href="search.html"></a></div>
+				<div class="menu"></div>
+			</div>
+			<div class="menu_cont">
+				<h2><span class="close"></span></h2>
+				<ul>
+					<li>
+						<h3><a href="index.html">首页</a></h3>
+						<ul></ul>
+					</li>
+					<li>
+						<h3><a href="javascript:;">关于我们</a></h3>
+						<ul>
+							<li><a href="introduction.html">基金会简介</a></li>
+							<li><a href="#">宗旨章程</a></li>
+							<li><a href="#">组织机构</a></li>
+							<li><a href="#">理事长致辞</a></li>
+							<li><a href="#">政策制定</a></li>
+							<li><a href="#">联系我们</a></li>
+						</ul>
+					</li>
+					<li>
+						<h3><a href="javascript:;">新闻中心</a></h3>
+						<ul></ul>
+					</li>
+					<li>
+						<h3><a href="javascript:;">信息公开</a></h3>
+						<ul>
+							<li><a href="giving_name_list.html">捐赠芳名榜</a></li>
+							<li><a href="#">年度检查报告</a></li>
+							<li><a href="#">年度总结报告</a></li>
+							<li><a href="#">项目实施总结</a></li>
+							<li><a href="#">基金会规章制度</a></li>
+						</ul>
+					</li>
+					<li>
+						<h3><a href="javascript:;">募捐项目</a></h3>
+						<ul>
+							<li><a href="#">学生资助</a></li>
+							<li><a href="#">师资建设</a></li>
+							<li><a href="#">知名教授基金</a></li>
+							<li><a href="#">学科发展建设</a></li>
+							<li><a href="#">基础设施建设</a></li>
+							<li><a href="donation_project.html">非限定性捐款</a></li>
+						</ul>
+					</li>
+					<li>
+						<h3><a href="javascript:;">募捐指南</a></h3>
+						<ul></ul>
+					</li>
+					<li>
+						<h3><a href="javascript:;">下载中心</a></h3>
+						<ul></ul>
+					</li>
+					<li>
+						<h3><a href="javascript:;">精品活动</a></h3>
+						<ul></ul>
+					</li>
+					<li>
+						<h3><a href="javascript:;">志愿者</a></h3>
+						<ul></ul>
+					</li>
+					<li>
+						<h3><a href="javascript:;">常见问题</a></h3>
+						<ul></ul>
+					</li>
+				</ul>
+				<p><a href="#">中文</a>|<a class="EN" href="#">EN</a></p>
+			</div>
+		</div>
+		<div class="slideMenu">
+			<div class="donation">
+				<dl class="cleafix">
+					<dt></dt>
+					<dd>
+						<a href="#">我要捐款</a>
+						<a href="#">志愿者</a>
+						<a href="#">众筹平台</a>
+						<a href="#">联系我们</a>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="banner">
+			<div class="swiper-container" id="swiper1">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><a href="#"><img src="temp/banner.jpg"></a></div>
+					<div class="swiper-slide"><a href="#"><img src="temp/banner.jpg"></a></div>
+					<div class="swiper-slide"><a href="#"><img src="temp/banner.jpg"></a></div>
+				</div>
+			</div>
+		</div>
+		<div class="mainWarp">
+			<!--捐赠芳名榜-->
+			<div class="mian">
+				<div class="title">
+					<h2>
+						<p>捐/赠/芳/名/榜</p>
+						<span>Giving Name List</span>
+					</h2>
+					<a class="more" href="giving_name_list.html">更多<i></i></a>
+				</div>
+				<div class="giving_name_list">
+					<div class="swiper-container swiper-container2" id="swiper2">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><a href="#"><h3><i></i>30000</h3><p>宁波吉利罗佑发动机零部件有限公司</p></a></div>
+							<div class="swiper-slide"><a href="#"><h3><i></i>30000</h3><p>宁波吉利罗佑发动机零部件有限公司</p></a></div>
+							<div class="swiper-slide"><a href="#"><h3><i></i>30000</h3><p>宁波吉利罗佑发动机零部件有限公司</p></a></div>
+							<div class="swiper-slide"><a href="#"><h3><i></i>30000</h3><p>宁波吉利罗佑发动机零部件有限公司</p></a></div>
+							<div class="swiper-slide"><a href="#"><h3><i></i>30000</h3><p>宁波吉利罗佑发动机零部件有限公司</p></a></div>
+							<div class="swiper-slide"><a href="#"><h3><i></i>30000</h3><p>宁波吉利罗佑发动机零部件有限公司</p></a></div>
+						</div>
+					</div>
+					<div class="swiper-container swiper-container2" id="swiper3">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><div><span><img src="temp/img1.png"/><img src="temp/img1_2.png"/></span></div><div><span><img src="temp/img2.png"/><img src="temp/img2_2.png"/></span></div></div>
+							<div class="swiper-slide"><div><span><img src="temp/img3.png"/><img src="temp/img3_2.png"/></span></div><div><span><img src="temp/img4.png"/><img src="temp/img4_2.png"/></span></div></div>
+							<div class="swiper-slide"><div><span><img src="temp/img5.png"/><img src="temp/img5_2.png"/></span></div><div><span><img src="temp/img6.png"/><img src="temp/img6_2.png"/></span></div></div>
+							<div class="swiper-slide"><div><span><img src="temp/img7.png"/><img src="temp/img7_2.png"/></span></div><div><span><img src="temp/img8.png"/><img src="temp/img8_2.png"/></span></div></div>
+							<div class="swiper-slide"><div><span><img src="temp/img9.png"/><img src="temp/img9_2.png"/></span></div><div><span><img src="temp/img10.png"/><img src="temp/img10_2.png"/></span></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--捐赠项目-->
+			<div class="mian">
+				<div class="title">
+					<h2>
+						<p>捐/赠/项/目</p>
+						<span>Donation project</span>
+					</h2>
+				</div>
+				<div class="donation_project">
+					<div class="back_img_wrap">
+						<img class="on" src="temp/index1@2x.jpg"/>
+						<img src="temp/index2@2x.jpg"/>
+						<img src="temp/index3@2x.jpg"/>
+						<img src="temp/index4@2x.jpg"/>
+						<img src="temp/index5@2x.jpg"/>
+						<img src="temp/index6@2x.jpg"/>
+					</div>
+					<div class="donate_project_cont">
+						<ul>
+							<li>
+								<h3>
+									<span>
+										<img class="icon_span" src="images/icon1@2x.png"/>
+										<img class="back_span" src="images/bg@2x.png"/>
+									</span>
+									<i>学生资助</i>
+								</h3>
+								<a href="donation_project.html"><b>了解更多</b></a>
+							</li>
+							<li>
+								<h3>
+									<span>
+										<img class="icon_span" src="images/icon2@2x.png"/>
+										<img class="back_span" src="images/bg@2x.png"/>
+									</span>
+									<i>师资建设</i>
+								</h3>
+								<a href="donation_project.html"><b>了解更多</b></a>
+							</li>
+							<li>
+								<h3>
+									<span>
+										<img class="icon_span" src="images/icon3@2x.png"/>
+										<img class="back_span" src="images/bg@2x.png"/>
+									</span>
+									<i>知名教授基金</i>
+								</h3>
+								<a href="donation_project.html"><b>了解更多</b></a>
+							</li>
+							<li>
+								<h3>
+									<span>
+										<img class="icon_span" src="images/icon4@2x.png"/>
+										<img class="back_span" src="images/bg@2x.png"/>
+									</span>
+									<i>学科发展建设</i>
+								</h3>
+								<a href="donation_project.html"><b>了解更多</b></a>
+							</li>
+							<li>
+								<h3>
+									<span>
+										<img class="icon_span" src="images/icon5@2x.png"/>
+										<img class="back_span" src="images/bg@2x.png"/>
+									</span>
+									<i>基础发展建设</i>
+								</h3>
+								<a href="donation_project.html"><b>了解更多</b></a>
+							</li>
+							<li>
+								<h3>
+									<span>
+										<img class="icon_span" src="images/icon6@2x.png"/>
+										<img class="back_span" src="images/bg@2x.png"/>
+									</span>
+									<i>非限定性捐款</i>
+								</h3>
+								<a href="donation_project.html"><b>了解更多</b></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--新闻资讯-->
+			<div class="mian">
+				<div class="title">
+					<h2>
+						<p>新/闻/资/讯</p>
+						<span>News Information</span>
+					</h2>
+					<a class="more" href="list.html">更多<i></i></a>
+				</div>
+				<div class="news_information">
+					<ul>
+						<li><a href="content.html"><span>12-06</span><p>西安交大一行拜访上海唐君远教育基金会并看望当地校友</p></a></li>
+						<li><a href="content.html"><span>12-05</span><p>机械学院举行第六届“ＮＳＫ机械工程学优秀论文成果奖”表...</p></a></li>
+						<li><a href="content.html"><span>12-03</span><p>财务、规划、资产公司、创新港、基金会等单位召开专题会</p></a></li>
+						<li><a href="content.html"><span>12-01</span><p>王树国校长赴吴江拜访唐仲英先生会见苏州工业园区管委会党...</p></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--通知公告-->
+			<div class="mian">
+				<div class="title">
+					<h2>
+						<p>通/知/公/告</p>
+						<span>Announcements</span>
+					</h2>
+					<a class="more" href="list.html">更多<i></i></a>
+				</div>
+				<div class="announcements">
+					<ul>
+						<li>
+							<a href="content.html">
+								<span><em>JUN</em><i>30</i></span>
+								<div>
+									<h3>西安交大一行拜访上海唐君远教育基金会并看...</h3>
+									<p>台湾光华教育基金会执行长陈振川教授莅校，与西安交...</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<span><em>JUN</em><i>30</i></span>
+								<div>
+									<h3>西安交通大学光华奖学金颁奖仪式顺利举行</h3>
+									<p>交大钱学森图书馆星空报告厅举行。台湾光华教育基金...</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<span><em>JUN</em><i>30</i></span>
+								<div>
+									<h3>王树国校长赴吴江拜访唐仲英先生会见苏州工...</h3>
+									<p>西安交通大学光华奖学金颁奖仪式在交大钱学森图书馆...</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="content.html">
+								<span><em>JUN</em><i>30</i></span>
+								<div>
+									<h3>2015-2016学年“经叔平奖学金”在经金学院...</h3>
+									<p>2015-2016学年西安交通大学光华奖学金颁奖仪式在交...</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--捐赠故事-->
+			<div class="mian main2">
+				<div class="title title_story">
+					<h2>
+						<p>捐/赠/故/事</p>
+						<span>Donation of story</span>
+					</h2>
+					<a class="more" href="list.html">更多<i></i></a>
+				</div>
+				<div class="donation_story">
+					<div class="story_intro">
+						<h2>追思“蒋大宗基金”命名者蒋大宗先生</h2>
+						<span>2015-5-26</span>
+						<p>2015年4月7日下午，蒋大宗先生追思会暨蒋大宗基金捐赠会在交大校园内举行。自2014年3月18日先生仙逝至今已一年有余，蒋大宗先生亲属、朋友、同事、学生等同聚交大，追忆故人，缅怀一代大师，传承师者风范。蒋大宗先生更是将身后留下的20万元遗产蒋大宗基金捐赠会在交大校园内举行。自2014年3月18日先生仙逝至今已......</p>
+						<a href="content.html">details></a>
+					</div>
+				</div>
+				<div class="story_list">
+					<div class="swiper-container" id="swiper4">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<a href="javascript:;" data-time="2015-06-21" data-href="">
+									<img src="temp/story1.jpg"/>
+									<div class="bg"></div>
+									<p>追思"蒋大宗基金"<br/>命名者蒋大宗先生</p>
+									<span>1.2015年4月7日下午，蒋大宗先生追思会暨蒋大宗基金捐赠会在交大校园内举行。自2014年3月18日先生仙逝至今已一年有余，蒋大宗先生亲属、朋友、同事、学生等同聚交大，追忆故人，缅怀一代大师，传承师者风范。蒋大宗先生更是将身后留下的20万元遗产蒋大宗基金捐赠会在交大校园内举行。自2014年3月18日先生仙逝至今已......</span>
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="javascript:;" data-time="2015-06-21" data-href="">
+									<img src="temp/story2.jpg"/>
+									<div class="bg"></div>
+									<p>追思"蒋大宗基金"<br/>命名者蒋大宗先生</p>
+									<span>2.2015年4月7日下午，蒋大宗先生追思会暨蒋大宗基金捐赠会在交大校园内举行。自2014年3月18日先生仙逝至今已一年有余，蒋大宗先生亲属、朋友、同事、学生等同聚交大，追忆故人，缅怀一代大师，传承师者风范。蒋大宗先生更是将身后留下的20万元遗产蒋大宗基金捐赠会在交大校园内举行。自2014年3月18日先生仙逝至今已......</span>
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="javascript:;" data-time="2015-06-21" data-href="">
+									<img src="temp/story3.jpg"/>
+									<div class="bg"></div>
+									<p>追思"蒋大宗基金"<br/>命名者蒋大宗先生</p>
+									<span>3.2015年4月7日下午，蒋大宗先生追思会暨蒋大宗基金捐赠会在交大校园内举行。自2014年3月18日先生仙逝至今已一年有余，蒋大宗先生亲属、朋友、同事、学生等同聚交大，追忆故人，缅怀一代大师，传承师者风范。蒋大宗先生更是将身后留下的20万元遗产蒋大宗基金捐赠会在交大校园内举行。自2014年3月18日先生仙逝至今已......</span>
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="javascript:;" data-time="2015-06-21" data-href="">
+									<img src="temp/story4.jpg"/>
+									<div class="bg"></div>
+									<p>追思"蒋大宗基金"<br>命名者蒋大宗先生</p>
+									<span>4.2015年4月7日下午，蒋大宗先生追思会暨蒋大宗基金捐赠会在交大校园内举行。自2014年3月18日先生仙逝至今已一年有余，蒋大宗先生亲属、朋友、同事、学生等同聚交大，追忆故人，缅怀一代大师，传承师者风范。蒋大宗先生更是将身后留下的20万元遗产蒋大宗基金捐赠会在交大校园内举行。自2014年3月18日先生仙逝至今已......</span>
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="javascript:;" data-time="2015-06-21" data-href="">
+									<img src="temp/story1.jpg"/>
+									<div class="bg"></div>
+									<p>追思"蒋大宗基金"<br/>命名者蒋大宗先生</p>
+									<span>1.2015年4月7日下午，蒋大宗先生追思会暨蒋大宗基金捐赠会在交大校园内举行。自2014年3月18日先生仙逝至今已一年有余，蒋大宗先生亲属、朋友、同事、学生等同聚交大，追忆故人，缅怀一代大师，传承师者风范。蒋大宗先生更是将身后留下的20万元遗产蒋大宗基金捐赠会在交大校园内举行。自2014年3月18日先生仙逝至今已......</span>
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="javascript:;" data-time="2015-06-21" data-href="">
+									<img src="temp/story2.jpg"/>
+									<div class="bg"></div>
+									<p>追思"蒋大宗基金"<br/>命名者蒋大宗先生</p>
+									<span>2.2015年4月7日下午，蒋大宗先生追思会暨蒋大宗基金捐赠会在交大校园内举行。自2014年3月18日先生仙逝至今已一年有余，蒋大宗先生亲属、朋友、同事、学生等同聚交大，追忆故人，缅怀一代大师，传承师者风范。蒋大宗先生更是将身后留下的20万元遗产蒋大宗基金捐赠会在交大校园内举行。自2014年3月18日先生仙逝至今已......</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--页脚部分-->
+		<div class="footer">
+			<div class="link_friend">
+				<h2>友情链接</h2>
+				<ul>
+					<li><a href="#">西安交通大学官网</a></li>
+					<li><a href="#">西安交通大学团委</a></li>
+					<li><a href="#">西安交通大学学生处</a></li>
+					<li><a href="#">西安交通大学官网</a></li>
+					<li><a href="#">西安交通大学团委</a></li>
+					<li><a href="#">西安交通大学学生处</a></li>
+				</ul>
+			</div>
+			<div class="link_share">
+				<ul>
+					<li><a href="javascript:;"><span class="sina"></span><p>新浪微博</p><img src="images/er_code.png"/></a></li>
+					<li><a href="javascript:;"><span class="tencent"></span><p>腾讯微博</p><img src="images/er_code.png"/></a></li>
+					<li><a href="javascript:;"><span class="weixin"></span><p>官方微信</p><img src="images/er_code.png"/></a></li>
+					<li><a href="#"><span class="pc"></span><p>客户端</p></a></li>
+				</ul>
+			</div>
+			<div class="footer_bottom">
+				<span><i class="copyright"></i>版权所有 ：西安交通大学教育基金会 陕ICP备000001号</span>
+				<span><i class="phone"></i>电    话 ：029—82668199 传真：029—82668199</span>
+				<span><i class="address"></i>地    址 ：西安市咸宁西路28号 西安交通大学工程训练中心六楼</span>
+				<span><i class="email"></i>邮政编码： 710049</span>
+				<span><i class="tech"></i>技术支持与维护：西安交通大学数据与信息中心</span>
+			</div>
+		</div>
+		<script src="js/jquery-1.8.0.min.js"></script>
+		<script src="js/swiper.js"></script>
+		<script src="js/style.js"></script>
+	</body>
+</html>
